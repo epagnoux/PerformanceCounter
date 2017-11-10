@@ -143,7 +143,10 @@ namespace PerformanceCounter
 
     private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
     {
-    
+
+      mX = 0;
+      mPointsX.Clear();
+      mPointsY.Clear();
       mLineGraph.IsAutoFitEnabled = true;
     }
   }
